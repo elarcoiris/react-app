@@ -17,16 +17,12 @@ class App extends Component {
       },
       news3: {
         type: 'everything',
-        query: 'domains=comicbookmovie.com&language=en'
+        query: 'domains=youtube.com&language=en'
       }
     };
   }
   render() {
     return (
-      // <div className="App">
-      //   <header className="App-header">
-      //     <h1 className="App-title">News</h1>
-      //   </header>
       <div className="container-fluid">
         <div className="navbar-fixed">
           <nav>

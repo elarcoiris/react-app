@@ -14,15 +14,6 @@ class SideNews extends Component {
 
     componentDidMount() {
         const url = `https://newsapi.org/v2/${this.props.news.type}?${this.props.news.query}&apiKey=e3fbb68dec9e4a7c9e23205720cbb3b9`
-        // axios.post(url, {
-        //     data: {
-        //         news: {
-        //             title: 'djflksajdas',
-        //             description: 'jfsdjasd'
-        //         }
-        //     }
-        // })
-        
         axios.get(url)
             .then((response) => {
                 this.setState({
